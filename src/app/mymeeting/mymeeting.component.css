@@ -1,0 +1,42 @@
+img {
+  
+    width: 50%;
+    border: 5px solid rgb(70, 20, 20);
+    background-color: darkgoldenrod;
+  }
+  div{
+    background-color: cornflowerblue;
+  }
+form{
+  border: 2px solid burlywood
+}
+.carousel-inner img {
+  width: 60%;
+  height: 50%;
+}
+/* The hero image */
+
+  #example1 {
+    font-style:normal;
+    border: px solid rgb(70, 20, 20);
+
+    background-size: 100px;
+    background-repeat:no-repeat;
+    padding: 50px;
+    
+    
+  }
+
+.newspaper {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 5px solid rgb(78, 16, 5);
+}
+
+h2 {
+  column-span: all;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+
+}
+

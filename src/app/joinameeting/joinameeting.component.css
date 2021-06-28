@@ -1,0 +1,29 @@
+body{
+    font-style:initial;
+  
+}
+
+img{
+  float:right;
+  float: left;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#example1 {
+    font-style: italic;
+    border: 5px solid rgb(70, 20, 20);
+    
+    background-size: 700px;
+    background-repeat:no-repeat;
+    padding: 100px;
+    background-clip: border-box;
+    
+  }
+
+  #example2 {
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    padding: 15px;
+  }

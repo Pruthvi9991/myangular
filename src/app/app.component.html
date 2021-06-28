@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  
+  
+  
+  
+  <h1 class="text-center bg-warning"> World Meetings</h1>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-secondary">
+    <!-- Brand -->
+    <div class="header">
+      <img src="./assets/images/wmlogo.png" class= "rounded circle" alt="logo" style="width: 150px">
+      <h3>World Meetings</h3>
+    </div>
+    <!-- Links -->
+     <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home">Home</a>
+      
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/My Meeting"> My Meeting</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/Join A Meeting">Join A Meeting</a>
+      </li>
+      
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" routerLink="#" id="navbardrop" data-toggle="dropdown">
+          HelpDesk
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" routerLink="#">Contact</a>
+          <a class="dropdown-item" routerLink="#">Address</a>
+          <a class="dropdown-item" routerLink="#">Email</a>
+        </div>
+      </li>
+      <div class="right">
+        <li class="nav-item">
+        <a class="nav-link" routerLink="/signin">Signin</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/signup">Signup</a>
+      </li>
+      </div>
+    </ul>
+  </nav>
+  
+  
+  <router-outlet></router-outlet>
+  </body>
+  
+  
+  
+  <footer class="section footer-classic context-dark bg-image" style="background: #774141;">
+    <div class="container">
+      <div class="row row-30">
+        <div class="col-md-4 col-xl-5">
+          <div class="pr-xl-4"><a class="brand" href="index.html"></a>
+            <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+            <!-- Rights-->
+            <p class="rights"><span>©  </span><span class="copyright-year">2020</span><span> </span><span>Company</span><span> - </span><span>All Rights Reserved.</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>Contacts</h5>
+          <dl class="contact-list">
+            <dt>Address:</dt><dd><a routerLink="Address:#"></a>Kukatpally,Hyderabad, India</dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>email:</dt><dd><a routerLink="mailto:#">Worldmeets@email.com</a></dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>phones:</dt><dd><a routerLink="tel:#">123456789</a> <span>or</span> <a href="tel:#">987654321</a></dd>
+          </dl>
+        </div>
+        <div class="col-md-10 col-xl-5">
+          <h5>Links</h5>
+          <ul class="nav-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row no-gutters social-container">
+      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>Twitter</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>Youtube</span></a></div>
+    </div>
+  </footer>
+  <div class="container">
+    <ul class="pagination-lg">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </div>
+  
+
+
+
+  
